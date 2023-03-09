@@ -1,0 +1,47 @@
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://s2.glbimg.com/bAA2nd9kpR8VghuxJ3q4GUFFtb4=/0x0:5296x3531/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/j/3/rcCLnuQTSR6qYtrcxhAg/robert-pattinson.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://media.vanityfair.com/photos/620aa878b1aef5780ef1d04e/master/w_1920,c_limit/1340176590');
+}
+
+.banner-3 {
+    background-image: url('https://epipoca.com.br/wp-content/uploads/2021/09/Jeffrey-Wright-in-The-Batman.jpg');
+}
