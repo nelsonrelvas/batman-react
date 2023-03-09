@@ -19,7 +19,7 @@ function Home() {
                     </video>
                     <div id="sinopse">
                         <p className="description">
-                            Batman, segue o segundo ano de Bruce Wayne (Robert Pattinson) como o herói de Gotham, causando medo nos corações dos criminosos, levando-o para as sombras de Gotham City.
+                            BATMAN, segue o segundo ano de Bruce Wayne (Robert Pattinson) como o herói de Gotham, causando medo nos corações dos criminosos, levando-o para as sombras de Gotham City.
                         </p>
                         <button className="botao">Comprar ingresso</button>
                     </div>
